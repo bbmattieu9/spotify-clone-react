@@ -1,11 +1,12 @@
 import React from 'react'
 import './Login.css'
+import { loginUrl } from './spotify'
 
 function Login() {
     return (
         <div className="login">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGnlhIwkCmk5LNizQJQwg2S4RiogibhC0zQ&usqp=CAU" alt="spotify logo" />
-            <a href="loginn">LOGIN WITH SPOTIFY</a>
+            <img src="https://services.tegrazone.com/sites/default/files/pcgame-featured-image/Spotify-MFG-840x360.jpg" alt="spotify logo" />
+            <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
         </div>
     )
 }
